@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#00000000</color>
+    <color name="colorAccent">#FF4081</color>
+
+    <color name="white">#ffffff</color>
+    <color name="light_white">#fff8f8f8</color>
+    <color name="action_bar_background">#e6ffffff</color>
+    <color name="action_bar_background_change">#00ffffff</color>
+    <color name="action_bar_text_color">#ff343841</color>
+    <color name="black">#ff333942</color>
+    <color name="gray">#ff999999</color>
+    <color name="no_color">#00000000</color>
+    <color name="bottom_bar_background">#e6ffffff</color>
+    <color name="touming">#00000000</color>
+
+
+
+    <color name="set_text_color">#979daa</color>
+    <color name="backgroud_gray">#c8f5f4f4</color>
+    <color name="mix_black">#ff232527</color>
+    <color name="mix_black_d">#ff666666</color>
+    <color name="green_white">#fffffcf9</color>
+</resources>

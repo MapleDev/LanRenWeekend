@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:id="@+id/container"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@color/light_white"
+              android:clickable="true"
+              android:focusable="true"
+              android:focusableInTouchMode="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/actionbar"/>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fadingEdge="vertical"
+        android:scrollbars="none">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="120.0dip"
+                android:layout_height="120.0dip"
+                android:layout_gravity="center"
+                android:layout_marginTop="40.0dip"
+                android:scaleType="centerCrop"
+                android:src="@drawable/default_avatar"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="16.0dip"
+                android:gravity="center"
+                android:minWidth="200.0dip"
+                android:paddingLeft="10.0dip"
+                android:paddingRight="10.0dip"
+                android:singleLine="true"
+                android:text="匿名用户"
+                android:textColor="@color/black"
+                android:textSize="20.0sp"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18.0dip"
+                android:text="性别"
+                android:textColor="@color/gray"
+                android:textSize="15.0sp"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="66.0dip"
+                android:gravity="center">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:gravity="center_vertical">
+
+                    <com.serena.www.lazyweekend.ui.SelectorImageView
+                        android:id="@+id/imageView_male"
+                        android:layout_width="40.0dip"
+                        android:layout_height="40.0dip"
+                        android:gravity="center"
+                        android:padding="@dimen/small_padding"
+                        android:src="@drawable/male_unchecked"
+                        app:selector_src="@drawable/male_checked"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="男"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="@dimen/middle_padding_x"
+                    android:gravity="center_vertical">
+
+                    <com.serena.www.lazyweekend.ui.SelectorImageView
+                        android:id="@+id/imageView_female"
+                        android:layout_width="40.0dip"
+                        android:layout_height="40.0dip"
+                        android:clickable="true"
+                        android:gravity="center"
+                        android:padding="@dimen/small_padding"
+                        android:src="@drawable/female_unchecked"
+                        app:selector_src="@drawable/female_checked"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="女"
+                        android:textColor="@color/black"
+                        android:textSize="18sp"/>
+                </LinearLayout>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="18.0dip"
+                android:text="当前状态"
+                android:textColor="@color/gray"
+                android:textSize="15sp"/>
+
+            <RadioGroup
+                android:layout_gravity="center"
+                android:id="@+id/rg_my_info_status"
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:layout_marginTop="9dp"
+                >
+
+
+                <RadioButton
+                    android:id="@+id/rb_parent"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/selector_radio_check_black"
+                    android:duplicateParentState="true"
+                    android:focusable="false"
+                    android:text="  为人父母"
+                    android:layout_marginBottom="9dp"
+
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb_fff"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/selector_radio_check_black"
+                    android:duplicateParentState="true"
+                    android:focusable="false"
+                    android:text="  恋爱中/已婚"
+                    android:layout_marginBottom="9dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+                <RadioButton
+                    android:id="@+id/rb_single_dog"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:button="@drawable/selector_radio_check_black"
+                    android:duplicateParentState="true"
+                    android:focusable="false"
+                    android:text="  单身汪"
+                    android:layout_marginBottom="9dp"
+                    android:textColor="@color/black"
+                    android:textSize="20sp"/>
+
+            </RadioGroup>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

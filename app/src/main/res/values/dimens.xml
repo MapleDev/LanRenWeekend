@@ -1,0 +1,15 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+
+    <dimen name="action_bar_text_size">18.0sp</dimen>
+    <dimen name="action_bar_height">47.0dip</dimen>
+    <dimen name="middle_padding_x">10.0dip</dimen>
+    <dimen name="small_padding">5.0dip</dimen>
+    <dimen name="bottom_bar_height">56.0dip</dimen>
+    <dimen name="bottom_bar_item_width">64.0dip</dimen>
+
+
+    <dimen name="set_text_size">20dp</dimen>
+
+
+</resources>

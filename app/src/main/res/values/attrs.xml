@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="MenuIcon">
+        <attr name="menu_icon" format="reference" />
+        <attr name="menu_text" format="string" />
+        <attr name="menu_alpha" format="float" />
+        <attr name="menu_enable" format="boolean" />
+    </declare-styleable>
+
+
+    <!--add 2016-8-4 11:46:17-->
+    <declare-styleable name="SelectorImageView">
+        <attr name="selector_src" format="reference"/>//选中的src图片属性
+        <attr name="checked" format="boolean"/>
+    </declare-styleable>
+
+
+</resources>

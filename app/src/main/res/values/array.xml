@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="splash_tip">
+        <item>闭目，难掩喜悦与期待。</item>
+        <item>睁眼，因为你心为所动。</item>
+        <item>启程，只因追寻你所爱。</item>
+        <item>我们，做最了解你的人。</item>
+    </string-array>
+
+    <array name="splash_pic">
+        <item>@drawable/pic1</item>
+        <item>@drawable/pic2</item>
+        <item>@drawable/pic3</item>
+        <item>@drawable/pic4</item>
+    </array>
+
+    <string-array name="category_list">
+        <item>周边游</item>
+        <item>酒吧</item>
+        <item>音乐</item>
+        <item>戏剧</item>
+        <item>展览</item>
+        <item>美食</item>
+        <item>购物</item>
+        <item>电影</item>
+        <item>聚会</item>
+        <item>运动</item>
+        <item>公益</item>
+        <item>商业</item>
+    </string-array>
+
+    <array name="category_icon_list">
+        <item>@drawable/ic_c_montain_gray</item>
+        <item>@drawable/ic_c_bar_gray</item>
+        <item>@drawable/ic_c_music_gray</item>
+        <item>@drawable/ic_c_stage_gray</item>
+        <item>@drawable/ic_c_pic_gray</item>
+        <item>@drawable/ic_c_eat_gray</item>
+        <item>@drawable/ic_c_bag_gray</item>
+        <item>@drawable/ic_c_movie_gray</item>
+        <item>@drawable/ic_c_persons_gray</item>
+        <item>@drawable/ic_c_backetball_gray</item>
+        <item>@drawable/ic_c_leaf_gray</item>
+        <item>@drawable/ic_c_shirt_gray</item>
+    </array>
+
+    <array name="category_icon_list_checked">
+        <item>@drawable/ic_c_montain</item>
+        <item>@drawable/ic_c_bar</item>
+        <item>@drawable/ic_c_music</item>
+        <item>@drawable/ic_c_stage</item>
+        <item>@drawable/ic_c_pic</item>
+        <item>@drawable/ic_c_eat</item>
+        <item>@drawable/ic_c_bag</item>
+        <item>@drawable/ic_c_movie</item>
+        <item>@drawable/ic_c_persons</item>
+        <item>@drawable/ic_c_backetball</item>
+        <item>@drawable/ic_c_leaf</item>
+        <item>@drawable/ic_c_shirt</item>
+    </array>
+
+    <string-array name="up_tip">
+        <item>闭目，难掩喜悦与期待。</item>
+        <item>睁眼，因为你心为所动。</item>
+        <item>启程，只因追寻你所爱。</item>
+        <item>我们，做最了解你的人。</item>
+        <item>世界是自己的，与他人无关。</item>
+        <item>我们始终牵手旅行。</item>
+        <item>一起走吧，小懒猫。</item>
+        <item>请把我留在最好的时光里。</item>
+        <item>致总有一天会出发的你。</item>
+        <item>要和有趣的人在一起才会快乐。</item>
+        <item>保持一颗好奇心，因为世界是彩色的。</item>
+    </string-array>
+
+</resources>

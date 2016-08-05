@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:id="@id/container"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent"
+              android:background="@color/green_white"
+              android:clickable="true"
+              android:orientation="vertical">
+
+    <include layout="@layout/actionbar"/>
+
+    <FrameLayout
+        android:background="#8ec2f5"
+        android:layout_width="fill_parent"
+        android:layout_height="0.0dip"
+        android:layout_weight="1.0">
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/swipe_container"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="bottom">
+
+            <!--<com.lanrenzhoumo.weekend.widget.listview.RequireListView-->
+            <ListView
+                android:id="@+id/list_view"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:clipToPadding="false"
+                android:divider="@null"
+                android:listSelector="@color/no_color"
+                android:paddingTop="8.0dip"/>
+
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2.0dip"
+            android:layout_gravity="bottom"
+            android:background="@drawable/shape_up_shadow"/>
+    </FrameLayout>
+
+    <FrameLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+        <!--<com.mbui.sdk.widget.TEditText-->
+        <EditText
+            android:id="@+id/input_need"
+            android:layout_width="0dp"
+            android:layout_height="42.0dip"
+            android:layout_weight="1"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginLeft="20.0dip"
+            android:layout_marginRight="10.0dip"
+            android:layout_marginTop="6.0dip"
+            android:background="@drawable/shape_white_rounded_background"
+            android:hint="告诉我你的需求吧 :)"
+            android:imeOptions="actionSend"
+            android:inputType="text"
+            android:paddingLeft="8.0dip"
+            android:singleLine="true"
+            android:textSize="16.0sp"/>
+
+        <Button
+            android:id="@+id/send"
+            android:background="#774499EE"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6.0dip"
+            android:layout_marginBottom="6.0dip"
+            android:layout_marginRight="10.0dip"
+            android:text="吐槽"/>
+</LinearLayout>
+
+    </FrameLayout>
+</LinearLayout>
