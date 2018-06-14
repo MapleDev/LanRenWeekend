@@ -91,7 +91,7 @@ public class HomeFragment extends BaseFragment {
             public void onRefresh() {
                 mPullTv.setText(mUpTips[index++ % mUpTips.length]);
                 mSwipeContainer.setRefreshing(false);
-                // TODO: 16/08/03 显示时间太短了 ，能否睡一下？
+                //  16/08/03 显示时间太短了 ，能否睡一下？
             }
 
             @Override

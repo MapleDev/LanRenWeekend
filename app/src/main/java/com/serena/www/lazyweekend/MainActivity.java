@@ -78,19 +78,15 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
     public void onClick(View v) {
         switch (v.getId()) {
             case R.id.bottom_home:
-                // TODO: 2016/7/30 点击切换首页  黄宏雄、饶玥
                 mViewpager.setCurrentItem(0);
                 break;
             case R.id.bottom_search:
-                // TODO: 2016/7/30 点击切换搜索页  黄杰晟
                 mViewpager.setCurrentItem(1);
                 break;
             case R.id.bottom_cat:
-                // TODO: 2016/7/30 点击切换咨询页  周光华
                 mViewpager.setCurrentItem(2);
                 break;
             case R.id.bottom_me:
-                // TODO: 2016/7/30 点击切换个人页  麻潇冰
                 mViewpager.setCurrentItem(3);
                 break;
         }
@@ -166,7 +162,6 @@ public class MainActivity extends BaseActivity implements View.OnClickListener, 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        // TODO: add setContentView(...) invocation
         ButterKnife.bind(this);
     }
 
